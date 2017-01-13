@@ -1,0 +1,24 @@
+
+.chess-board {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+    background: url("board.png") no-repeat;
+    background-size: contain;
+    border: 1px solid silver;
+}
+.chess-piece {
+    padding: 0;
+    margin: 0;
+   
+    position: absolute;
+    
+    font-family: "Tahoma";
+    text-align: center;
+    line-height: 100%;
+    transition: 1s;
+    
+}
+
